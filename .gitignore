@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+# .idea folder is ignored as its only necessary for strictly enforcing IDE setup
+*.idea/
+
+# gradle properties is ignored as it is where we specify JAVA7/8 paths for retrolambda
+gradle.properties
+
+
