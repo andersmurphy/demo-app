@@ -6,17 +6,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.HomeFragmentPresenter;
+
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
-    public MainActivityFragment() {
+    private HomeFragmentPresenter presenter;
+
+    public HomeFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        presenter = new HomeFragmentPresenter();
+
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 }
