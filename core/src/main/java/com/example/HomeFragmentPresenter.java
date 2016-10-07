@@ -1,5 +1,6 @@
 package com.example;
 
+@DontObfuscate
 public final class HomeFragmentPresenter {
 
     private final HomeFragmentView view;

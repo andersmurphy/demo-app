@@ -15,3 +15,10 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+-keepattributes SourceFile,LineNumberTable,*Annotation*
+-keepattributes EnclosingMethod
+-keepattributes InnerClasses
+
+#Keeps all classes that have the DontObfuscate annotation
+-keep class com.example.DontObfuscate
+-keep @com.example.DontObfuscate class * { *; }
