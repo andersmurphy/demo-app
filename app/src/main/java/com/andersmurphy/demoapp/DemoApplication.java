@@ -1,4 +1,4 @@
-package com.andersmurphy.chain;
+package com.andersmurphy.demoapp;
 
 import android.app.Application;
 
