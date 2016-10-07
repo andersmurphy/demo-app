@@ -2,6 +2,6 @@ package com.andersmurphy.chain;
 
 import android.app.Application;
 
-public class ChainApplication extends Application {
+public class DemoApplication extends Application {
 
 }
