@@ -9,19 +9,25 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name="com.andersmurphy.demoapp.NewMainActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
+        <activity
+            android:name="com.andersmurphy.demoapp.SplashActivity"
+            android:theme="@style/SplashTheme"></activity>
+
         <activity-alias
             android:name="com.andersmurphy.demoapp.MainActivity"
             android:label="@string/app_name"
-            android:targetActivity="com.andersmurphy.demoapp.NewMainActivity">
+            android:targetActivity="com.andersmurphy.demoapp.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity-alias>
+
     </application>
 
 </manifest>
