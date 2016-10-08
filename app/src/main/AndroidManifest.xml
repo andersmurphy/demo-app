@@ -12,11 +12,11 @@
 
         <activity
             android:name="com.andersmurphy.demoapp.NewMainActivity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name="com.andersmurphy.demoapp.SplashActivity"
-            android:theme="@style/SplashTheme"></activity>
+            android:theme="@style/SplashTheme" />
 
         <activity-alias
             android:name="com.andersmurphy.demoapp.MainActivity"
